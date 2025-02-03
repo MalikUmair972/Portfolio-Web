@@ -1,0 +1,20 @@
+section {
+    margin-top: 700px;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+
+    .card {
+        background-color: #000 ;
+        border-color: #66a6ff ;
+        border-width: 2px ;
+        margin-right: auto;
+    }
+    .container-service {
+        width: 700px;
+    }
+    .container-core {
+        width: 700px;
+        margin-top: 700px;
+    }
+}

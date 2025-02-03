@@ -1,0 +1,39 @@
+<section class="services-section py-5">
+    <div class="container">
+        <!-- Services I Offer -->
+        <div class="w-75 text-center text-light mb-5">
+            <h1 class="fw-bold">SERVICES I OFFER</h1>
+            <p class="w-75 mx-auto">
+                I provide professional web development services, creating responsive and visually appealing websites
+                tailored to your needs.
+            </p>
+        </div>
+
+        <!-- Services Cards -->
+        <div class="row g-4 justify-content-center w-75">
+            <div class="col-12 col-sm-10 col-md-6 col-lg-6" *ngFor="let card of cards">
+                <div class="card text-center p-4 shadow-sm">
+                    <img [src]="card.Image" alt="" class="img-fluid w-25 mx-auto" />
+                    <h2 class="fs-5 text-dark mt-3">{{ card.title }}</h2>
+                    <p class="fs-6 text-muted mt-2">{{ card.para }}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Core Features -->
+        <div class="feature w-75">
+            <div class="text-center text-light my-5">
+                <h1 class="fw-bold">CORE FEATURES</h1>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6 col-lg-4" *ngFor="let core of core">
+                    <div class="card text-center p-4 shadow-sm">
+                        <img [src]="core.Image" alt="" class="img-fluid w-25 mx-auto" />
+                        <h2 class="fs-5 text-dark mt-3">{{ core.Title }}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
