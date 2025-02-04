@@ -1,0 +1,15 @@
+<section class="d-flex justify-content-end w-75">
+    <div class="feature d-flex flex-column align-items-center w-75">
+        <div class="text-light my-5">
+            <h1 class="fw-bold">CORE FEATURES</h1>
+        </div>
+        <div class="row g-5 w-100 h-50">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4" *ngFor="let core of core">
+                <div class="card text-center p-4 shadow-sm">
+                    <img [src]="core.Image" alt="" class="img-fluid w-25 mx-auto" />
+                    <h2 class="fs-5 text-light mt-3">{{ core.Title }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

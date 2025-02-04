@@ -1,0 +1,44 @@
+section {
+    margin-top: 1900px;
+    position: absolute;
+    right: 0;
+    top: 90%;
+    z-index: 1;
+}
+
+.card {
+    padding: 20px;
+    color: white;
+    background: linear-gradient(#212121, #212121) padding-box,
+        linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transform-origin: right bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card .main-content {
+    flex: 1;
+}
+
+.card .header span:first-child {
+    font-weight: 600;
+    color: #717171;
+    margin-right: 4px;
+}
+
+.card:hover {
+    rotate: 8deg;
+}
+
+.container-service {
+    width: 700px;
+}
+
+.container-core {
+    width: 700px;
+    margin-top: 700px;
+}
