@@ -41,7 +41,11 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/libs/three.min.js",
+              "src/assets/libs/gsap-latest-beta.min.js",
+              "src/assets/libs/ScrollTrigger.min.js",
+              "src/assets/script.js"
             ]
           },
           "configurations": {
@@ -104,7 +108,10 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/libs/three.min.js",
+              "src/assets/libs/gsap-latest-beta.min.js",
+              "src/assets/libs/ScrollTrigger.min.js"
             ]
           }
         }
