@@ -24,3 +24,16 @@ button {
     height: 50px;
     border: 1px solid rgb(255, 0, 0) ;
 }
+
+.gsap-marker-start {
+    opacity: 0 !important;
+}
+.gsap-marker-scroller-start {
+    opacity: 0 !important;
+}
+.gsap-marker-scroller-end {
+    opacity: 0 !important;
+}
+.gsap-marker-end {
+    opacity: 0 !important;
+}
