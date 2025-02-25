@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { TurnelComponent } from './turnel/turnel.component';
 
 
 
@@ -9,13 +10,15 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [  
     HeaderComponent,
     FooterComponent,
+    TurnelComponent
     ],
   imports: [
     CommonModule,
   
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    TurnelComponent
   ]
 })
 export class ModuleComponentModule { }
