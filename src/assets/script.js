@@ -347,23 +347,7 @@ gsap.to(".DText", {
   duration: 1,
   ease: "power2.out"
 });
-// document.addEventListener('scroll', function() {
-//   const heading = document.querySelector('.services-heading');
-  
-//   // Calculate rotation based on scroll position
-//   const rotationX = (window.scrollY / window.innerHeight) * 20 - 10; 
-//   const rotationY = (window.scrollY / window.innerHeight) * 20 - 10;
 
-//   // Calculate scale based on scroll position (zoom in as you scroll down)
-//   const scale = 1 + (window.scrollY / window.innerHeight); // Adjust this value for smoother zoom
-  
-//   // Apply transform with rotation and scaling
-//   heading.style.transform = `rotateX(${rotationX}deg) rotateY(${rotationY}deg) scale(${scale})`;
-  
-//   // Dynamically adjust font size based on scroll (min 12px, max 48px)
-//   const fontSize = Math.min(Math.max(12 + scale * 24, 12), 48);  // Scale between 12px and 48px
-//   heading.style.fontSize = `${fontSize}px`;
-// });
 
 
 
